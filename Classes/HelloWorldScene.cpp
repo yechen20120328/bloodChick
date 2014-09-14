@@ -72,6 +72,9 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
     
+	auto label = Label::create("AAA", "Arial", 40);
+	label.setPosition(480, 320);
+	this->addChild(label);
     return true;
 }
 
